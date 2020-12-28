@@ -1,1 +1,7 @@
-<h1>Welcome in mu own mvc</h1>  
+<?php
+require_once './../bootstrap/init.php';
+
+$app_name = getenv('DB_NAME');
+
+echo $app_name;
+
