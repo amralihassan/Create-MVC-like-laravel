@@ -7,6 +7,7 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'AltoRouter' => $vendorDir . '/altorouter/altorouter/AltoRouter.php',
+    'App\\Classes\\Database' => $baseDir . '/app/Classes/Database.php',
     'App\\RouteDispatcher' => $baseDir . '/app/routing/RouteDispatcher.php',
     'App\\controllers\\BaseController' => $baseDir . '/app/controllers/BaseController.php',
     'App\\controllers\\IndexController' => $baseDir . '/app/controllers/IndexController.php',
@@ -135,6 +136,7 @@ return array(
     'Dotenv\\Loader' => $vendorDir . '/vlucas/phpdotenv/src/Loader.php',
     'Dotenv\\Parser' => $vendorDir . '/vlucas/phpdotenv/src/Parser.php',
     'Dotenv\\Validator' => $vendorDir . '/vlucas/phpdotenv/src/Validator.php',
+    'EasyPeasyICS' => $vendorDir . '/phpmailer/phpmailer/extras/EasyPeasyICS.php',
     'Illuminate\\Container\\BoundMethod' => $vendorDir . '/illuminate/container/BoundMethod.php',
     'Illuminate\\Container\\Container' => $vendorDir . '/illuminate/container/Container.php',
     'Illuminate\\Container\\ContextualBindingBuilder' => $vendorDir . '/illuminate/container/ContextualBindingBuilder.php',
@@ -470,6 +472,10 @@ return array(
     'Illuminate\\View\\ViewFinderInterface' => $vendorDir . '/illuminate/view/ViewFinderInterface.php',
     'Illuminate\\View\\ViewName' => $vendorDir . '/illuminate/view/ViewName.php',
     'Illuminate\\View\\ViewServiceProvider' => $vendorDir . '/illuminate/view/ViewServiceProvider.php',
+    'PHPMailer' => $vendorDir . '/phpmailer/phpmailer/class.phpmailer.php',
+    'PHPMailerOAuth' => $vendorDir . '/phpmailer/phpmailer/class.phpmaileroauth.php',
+    'PHPMailerOAuthGoogle' => $vendorDir . '/phpmailer/phpmailer/class.phpmaileroauthgoogle.php',
+    'POP3' => $vendorDir . '/phpmailer/phpmailer/class.pop3.php',
     'Philo\\Blade\\Blade' => $vendorDir . '/philo/laravel-blade/src/Blade.php',
     'Psr\\Container\\ContainerExceptionInterface' => $vendorDir . '/psr/container/src/ContainerExceptionInterface.php',
     'Psr\\Container\\ContainerInterface' => $vendorDir . '/psr/container/src/ContainerInterface.php',
@@ -488,6 +494,7 @@ return array(
     'Psr\\SimpleCache\\CacheException' => $vendorDir . '/psr/simple-cache/src/CacheException.php',
     'Psr\\SimpleCache\\CacheInterface' => $vendorDir . '/psr/simple-cache/src/CacheInterface.php',
     'Psr\\SimpleCache\\InvalidArgumentException' => $vendorDir . '/psr/simple-cache/src/InvalidArgumentException.php',
+    'SMTP' => $vendorDir . '/phpmailer/phpmailer/class.smtp.php',
     'Stringable' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/Stringable.php',
     'Symfony\\Component\\Debug\\BufferingLogger' => $vendorDir . '/symfony/debug/BufferingLogger.php',
     'Symfony\\Component\\Debug\\Debug' => $vendorDir . '/symfony/debug/Debug.php',
@@ -604,4 +611,6 @@ return array(
     'Symfony\\Polyfill\\Php80\\Php80' => $vendorDir . '/symfony/polyfill-php80/Php80.php',
     'UnhandledMatchError' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/UnhandledMatchError.php',
     'ValueError' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/ValueError.php',
+    'ntlm_sasl_client_class' => $vendorDir . '/phpmailer/phpmailer/extras/ntlm_sasl_client.php',
+    'phpmailerException' => $vendorDir . '/phpmailer/phpmailer/class.phpmailer.php',
 );
