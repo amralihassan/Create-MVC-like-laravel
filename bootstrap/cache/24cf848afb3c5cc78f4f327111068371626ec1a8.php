@@ -1,0 +1,1 @@
+Page not found<?php /**PATH /opt/lampp/htdocs/eShop/resources/views/errors/404.blade.php ENDPATH**/ ?>
